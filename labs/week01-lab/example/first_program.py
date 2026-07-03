@@ -13,6 +13,9 @@ print("My name is Your Name")
 # Line 3: Your favorite hobbyๅ
 # Write your code here:
 
+print("Nasaran")
+print("19")
+print("play game")
 
 # Exercise 4: Print with Different Content
 # Use print() to display the following (one per line):

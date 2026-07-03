@@ -24,8 +24,8 @@ my_float = 3.14
 my_boolean = False
 
 # Use type() to see the data type
-print("Type of my_string:", type(my_string))
-print("Type of my_integer:", type(my_integer))
+print("Type of my_string:", type(my_string)) #จะเเสดงเป็นstrings
+print("Type of my_integer:", type(my_integer)) #จะเเสดงเป็นint
 print("Type of my_float:", type(my_float))
 print("Type of my_boolean:", type(my_boolean))
 
@@ -34,7 +34,7 @@ first_name = "John"
 last_name = "Doe"
 
 # Concatenate strings
-full_name = first_name + " " + last_name
+full_name = first_name + " 222  " + last_name
 print("Full name:", full_name)
 
 # String length
@@ -77,16 +77,16 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
-favorite_color = 
+favorite_color = ("red")
 
 # Integer variable with the current year
-current_year = 
+current_year = 2026
 
 # Float variable with your favorite number (with decimal)
-favorite_number = 
+favorite_number = 33
 
 # Boolean variable indicating if you like pizza
-likes_pizza = 
+likes_pizza = False
 
 # Print all variables with descriptive messages
 print("My favorite color is:", favorite_color)
