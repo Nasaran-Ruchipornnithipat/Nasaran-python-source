@@ -9,7 +9,7 @@ print("Nice to meet you,", user_name)
 # Note: input() always returns a string, so we need to convert to numbers
 print("\n=== Exercise 2: Working with Numbers ===")
 age_string = input("How old are you? ")
-age = int(age_string)  # Convert string to integer #ถ้าต้องการเเปลงจากstrดป็นintให้ใช้ flost เเล้วถ้าต้องการเเปลงจากintเป็นstrใช้str()
+age = int(age_string)  # Convert string to integer ถ้าต้องการเเปลงจากstrดป็นintให้ใช้ flost เเล้วถ้าต้องการเเปลงจากintเป็นstrใช้str()
 print("You are", age, "years old")
 print("Next year you will be", age + 1, "years old")
 
