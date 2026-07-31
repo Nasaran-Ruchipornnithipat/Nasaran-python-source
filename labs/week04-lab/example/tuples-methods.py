@@ -12,12 +12,12 @@ print(f"Index of 3: {numbers.index(3)}")  # 2
 
 # Check membership
 print(f"Is 'red' in colors? {'red' in colors}")      # True
-print(f"Is 'yellow' in colors? {'yellow' in colors}") # False
+print(f"Is 'yellow' in colors? {'yellow' in colors}") # False ที่ได้ค่านี้ในcolorsไม่มีyellow
 
 # Min, max, sum (for numeric tuples)
-print(f"Min: {min(numbers)}")            # 1
-print(f"Max: {max(numbers)}")            # 5
-print(f"Sum: {sum(numbers)}")            # 19
+print(f"Min: {min(numbers)}")            # 1 คือค่าเริ่มต้น  
+print(f"Max: {max(numbers)}")            # 5 คือค่าสุดท้าย
+print(f"Sum: {sum(numbers)}")            # 19 คือผลรวม
 
 # Converting to list and back
 numbers_list = list(numbers)

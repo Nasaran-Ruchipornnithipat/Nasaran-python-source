@@ -39,7 +39,7 @@ print(fruits)  # ['pear', 'banana', 'cherry', 'orange', 'grape', 'kiwi', 'apple'
 fruits.remove("banana")          # Remove first occurrence
 print(fruits)  # ['pear', 'cherry', 'orange', 'grape', 'kiwi', 'apple']
 
-removed_fruit = fruits.pop()     # Remove and return last element
+removed_fruit = fruits.pop(0)     # Remove and return last element
 print(f"Removed: {removed_fruit}")  # apple
 print(fruits)  # ['pear', 'cherry', 'orange', 'grape', 'kiwi']
 
