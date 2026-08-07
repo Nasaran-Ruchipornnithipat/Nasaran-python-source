@@ -32,3 +32,4 @@ def calculate_circle_area(Radius): #คำนวนพท.วงกลม
 print("Calculating circle areas:")
 calculate_circle_area(244)
 calculate_circle_area(1222)
+
