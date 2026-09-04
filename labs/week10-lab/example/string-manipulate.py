@@ -126,7 +126,7 @@ print("'at' not in 'battle':", 'at' not in 'battle')  # False
 print("\n=== STRING IMMUTABILITY ===")
 str1 = "Hello"
 print(f"str1 is {str1}")
-print(f"id of str1 is {id(str1)}")
+print(f"id of str1 is {id(str1)}") #ฟังค์ชันid
 
 str2 = "world"
 print(f"str2 is {str2}")
@@ -146,10 +146,10 @@ print(f"id of str3 is {id(str3)}")  # Same ID as current str1
 
 print("\n=== ESCAPE CHARACTERS ===")
 print("New line example:")
-print("Line 1\nLine 2")
+print("Line 1\nLine 2") #\การทำให้ส่วนที่2ไปอยู่ในบรรทัดล่าง
 
 print("Tab example:")
-print("Column1\tColumn2\tColumn3")
+print("Column1\tColumn2\tColumn3") #\tเปรียบเสมือนการใช้tapในการเว้นบรรทัด
 
 print("Backslash example:")
 print("Path: C:\\Users\\Python")
