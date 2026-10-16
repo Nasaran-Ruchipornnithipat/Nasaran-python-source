@@ -15,7 +15,11 @@ def say_hello():
 
 # Calling the function
 print("Calling say_hello():")
+<<<<<<< HEAD
 say_hello() #การใช้งานฟังค์ชั่น
+=======
+say_hello()
+>>>>>>> upstream/main
 print()
 
 # Example 2: Function that performs a task
@@ -23,9 +27,15 @@ def draw_separator():
     """Draws a line separator"""
     print("-" * 40)
 
+<<<<<<< HEAD
 draw_separator() #เรียกใช้ฟังค์ชั่น
 print("This is between separators")
 draw_separator() #เรียกใช้ฟังค์ชั่น
+=======
+draw_separator()
+print("This is between separators")
+draw_separator()
+>>>>>>> upstream/main
 print()
 
 # =============================================================================
@@ -112,6 +122,7 @@ def square(n):
     """Returns the square of a number"""
     return n * n
 
+<<<<<<< HEAD
 #จากตัวอย่างด้านบน ให้เขียน fution ชื่อ square_root(n):
 def square_root(n):
     return n ** 0.5
@@ -121,6 +132,11 @@ result = multiply(4, 5) + square(3)
 print(f"multiply(4, 5) + square(3) = {multiply(4, 5)} + {square(3)} = {result}")
 
 print(f"square root of 25 =", square_root(25))
+=======
+print("Using return values in expressions:")
+result = multiply(4, 5) + square(3)
+print(f"multiply(4, 5) + square(3) = {multiply(4, 5)} + {square(3)} = {result}")
+>>>>>>> upstream/main
 print()
 
 # =============================================================================

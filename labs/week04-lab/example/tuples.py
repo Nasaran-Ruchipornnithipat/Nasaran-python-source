@@ -1,6 +1,10 @@
 # Empty tuple
 empty_tuple = ()
+<<<<<<< HEAD
 another_empty_tuple = tuple() 
+=======
+another_empty_tuple = tuple()
+>>>>>>> upstream/main
 
 # Tuple with values
 coordinates = (10, 20)
@@ -12,8 +16,13 @@ single_tuple = (42,)  # Without comma, it's just parentheses around a value
 not_a_tuple = (42)    # This is just an integer
 
 # Tuple from list
+<<<<<<< HEAD
 my_list = [1, 2, 3, 4] #listสามารถเปลี่ยนเเปลงค่าด้านในได้
 my_tuple = tuple(my_list) #เเปลงlistเป็นtuper
+=======
+my_list = [1, 2, 3, 4]
+my_tuple = tuple(my_list)
+>>>>>>> upstream/main
 
 # Tuple from string
 char_tuple = tuple("hello")  # ('h', 'e', 'l', 'l', 'o')

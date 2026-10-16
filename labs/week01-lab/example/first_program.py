@@ -13,9 +13,12 @@ print("My name is Your Name")
 # Line 3: Your favorite hobbyๅ
 # Write your code here:
 
+<<<<<<< HEAD
 print("Nasaran")
 print("19")
 print("play game")
+=======
+>>>>>>> upstream/main
 
 # Exercise 4: Print with Different Content
 # Use print() to display the following (one per line):
